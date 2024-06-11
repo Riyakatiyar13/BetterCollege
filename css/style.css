@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.navbar {
+    padding: 10px  0;
+}
+.navbar-brand {
+    font-weight: 700;
+    color: black;
+    padding-left: 20px;
+    font-size: 60px;
+   
+}
+span {
+    color: rgb(31, 31, 241);
+}
+.nav-item {
+    
+    font-weight: 500;
+   
+    padding-right: 30px;
+    }
+.navbar-light .navbar-nav .nav-item .nav-link:hover, 
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+   background: #023e8a;;
+   color: white;
+   border-radius: 8px;
+   transition: all 0.3s;
+}
+.banner {
+    background-image: url('../images/H1.jpeg');
+    width: 250px !important;
+    height: 490px;
+    background-repeat: no-repeat; /* Set background repeat */
+    background-size: cover;
+}
+#btn1{
+  margin-left: 30px;
+  width: 120px;
+  height: 40px;
+  margin-top: 20px;
+  background: #023e8a;
+  color: white;
+  border-radius: 3px;
+  font-weight: 500;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn1:hover{
+  background: #0077b6;
+  color: white;
+}
+
+
+.promo-title
+{
+color: #023E8A;
+font-weight: 400;
+font-size: 38px;
+letter-spacing: 0;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 90px;
+
+
+}
+.below-title {
+    color: #5b5b5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-weight: 300;
+    text-align: justify;
+}
+.button-title {
+    color: #5b5b5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.about {
+    background: #ececec !important;
+  }
+  
+  .about h1 {
+      color: #444444 !important; 
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 45px;
+  }
+  
+  .about-text h2 {
+      color: #011938;
+      font-family: Inter;
+      font-weight: 400;
+      text-align: justify;
+  }
+  
+  .about-text p {
+      font-size: 15px;
+      text-align: justify;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #444444;
+  }
+  .card {
+   
+    background-color: rgb(7 16 45);
+    background: linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+    background: -webkit-linear-gradient(to top right, rgb(7 16 45), rgb(58 60 84));
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(84 90 106);
+  }
+  
+ .title,.desc {
+    font-weight: 600;
+  }
+  
+  .title,.desc {
+    margin: 8px 0;
+  }
+  
+  
+  .title {
+    color: #fff;
+    font-size: 26px;
+    line-height: 26px;
+  }
+  
+  .desc {
+    color: rgb(151 153 167);
+    font-size: 13px;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 6px;
+    text-decoration: none;
+  }
+  
+  .button:first-child {
+    box-shadow: 0 4px 6px -1px #488aec31, 0 2px 4px -1px #488aec17;
+    background-color: #488aec;
+  }
+  
+  .button:last-child {
+    box-shadow: 0 4px 6px -1px #0b162531, 0 2px 4px -1px #0e192b17;
+    background-color: #fff;
+  }
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+  }
+  .button-text span:first-child {
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .card:hover {
+        border: 1px solid black;
+        transform: scale(1.05);
+      }
+  .container-xxl .study  {
+    background-color: rgb(196, 225, 241) !important;
+    background: linear-gradient(to top right, rgb(184, 200, 253), rgb(188, 221, 248));
+    background: -webkit-linear-gradient(to top right, rgb(184, 200, 253), rgb(188, 221, 248));
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px); 
+    
+}
+  .container-xxl .study .title {
+    color:#000000;
+  }
+  .container-xxl .study .desc {
+    color:#454545;
+  }
+  /*-----scholarship*/
+.container-first {
+  background: #ebecec;
+  justify-content: center;
+}
+.container-first h4 {
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+  color: #5b5b5c;
+}
+
+.container-first h2 {
+  text-align: center;
+  padding: 2px;
+  font-size: 30px;
+  color: #070707;
+}
+.container-first h5 {
+  text-align: center;
+  padding: 2px;
+  font-size: 12px;
+  color: #5b5b5c;
+}
+.custom-card {
+  /* Adjust the width as needed */
+  background: white;
+}
+.scholar {
+  padding-bottom: 30px;
+}  
+.scholar .card {
+  background-color: white;
+}
+/*------footer------*/
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #023E8A;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*course page */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70vh;
+  background: linear-gradient(to bottom, rgba(4, 4, 4, 0.5), rgba(0, 0, 0, 0.9));
+}
+
+.image-overlay h1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  position: absolute;
+  color: white;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+.top h2 {
+  text-align: center;
+  padding-top: 65px;
+  color: #023e8a;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.top p {
+  text-align: center;
+  padding: 2px;
+  color: #535353;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+.course .custom-card1 {
+  /* Adjust the width as needed */
+  background: rgb(195, 221, 253);
+  border-radius: 5px;
+}
+.custom-card1 img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
